@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*
+Em HTML é id = # em CSS
+EM HTML é class = . em CSS
+
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(192, 231, 231);
+}
+/*Não precisa colocar a tag HTML antes(nesse caso, H1, mas é bom pra garantir que não vai rolar com outros elementos*/
+h1#Principal{
+    background-color: rgb(15, 66, 49);
+    color: white;
+}
+h1{
+    color: blue;
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color: rgb(143, 143, 15);
+    text-decoration: underline;
+}
+.avancado{
+    color: red;
+}
+.destaque{
+    font-style: italic;
+}

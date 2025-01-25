@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica(responsividade)</h1>
+    <h2>Esta aula é fundamental para que seu site não sofra com alto bounce rate(taxa de rejeição), o que desvaloriza seu site</h2>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <!-- O CÓDIGO PRECISA SER NESSA ORDEM, DA MENOR PRA MAIOR -->
+        <source media="(max-width:750 )" srcset="Imagem PEQUENA" type="image/png">
+        <source media="(max-width:1050px )" srcset="(IMAGEM média)" type="image/jpg">
+        <img src="IMAGEM GRANDE" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio src="Mídia/videoplayback.m4a" controls autoplay> </audio>
+    <!-- MP3 WAV OGG-->
+     <audio preload="metadata" autoplay controls loop>
+        <source src="Mídia/videoplayback.m4a" type="audio/mpeg">
+        <source src="Mídia/videoplayback.m4a" type="audio/mpeg">
+        <!--isso é necessário pois diferentes navegadores suportam apenas tipos específicos de áudio-->
+        <!--arquivo wav é muito pesado, não use-->
+     </audio>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/EHsua1f_1AI?si=7FEj_yE2hpY9kkZ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

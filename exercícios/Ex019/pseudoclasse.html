@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        div{
+            background-color: gray;
+            margin:1px;
+            border:1px solid black;
+            height: 80px;
+            width: 80px;
+            text-align: center;
+            display:inline-block
+
+        }
+        /* # para id, . para classe e : para pseudoclasse*/
+        div:hover{
+            background-color: yellow;
+
+            /* Pseudoclasses tem a ver com o estado do elemento*/
+        }
+        
+    </style>
+</head>
+<body>
+    <!--Div é um elemento que ocupa a largura da tela inteira, como uma caixa-->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+
+    <div id="test">4</div>
+</body>
+</html>
